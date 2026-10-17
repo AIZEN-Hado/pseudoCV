@@ -138,6 +138,8 @@ Upload the `skills/pseudo-cv/` folder as a custom skill. See the
 
 </details>
 
+> **Requirements:** none to generate a resume — the LaTeX output pastes straight into [Overleaf](https://www.overleaf.com). For the **automatic one-page check** (`check_one_page.py`), install **Python 3** and a LaTeX engine (`pdflatex`, `xelatex` or `tectonic`). Without them the check is skipped and you compile in Overleaf instead.
+
 ### 💡 Then just ask
 
 ```text
