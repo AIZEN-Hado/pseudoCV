@@ -103,7 +103,7 @@ pseudoCV fixes both problems:
 <summary><b>💻 Claude Code (plugin, recommended)</b></summary>
 
 ```text
-/plugin install pseudo-cv --marketplace AIZEN-HADO/pseudoCV
+/plugin install pseudo-cv --marketplace AIZEN-Hado/pseudoCV
 ```
 
 </details>
@@ -124,7 +124,7 @@ pseudoCV fixes both problems:
 <summary><b>📁 Claude Code (manual skill install)</b></summary>
 
 ```bash
-git clone https://github.com/AIZEN-HADO/pseudoCV.git
+git clone https://github.com/AIZEN-Hado/pseudoCV.git
 cp -r pseudoCV/skills/pseudo-cv ~/.claude/skills/
 ```
 
