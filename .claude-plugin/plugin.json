@@ -1,0 +1,12 @@
+{
+  "name": "pseudo-cv",
+  "version": "1.0.0",
+  "description": "Resume planning for any job description: a one-page, ATS-optimized LaTeX resume from your real work, an optional target resume showing what a perfect resume for the JD looks like, a gap report and a project build plan.",
+  "author": {
+    "name": "Yash Chauhan"
+  },
+  "homepage": "https://github.com/AIZEN-HADO/pseudoCV",
+  "repository": "https://github.com/AIZEN-HADO/pseudoCV",
+  "license": "MIT",
+  "keywords": ["resume", "cv", "job-description", "ats", "latex", "career", "students", "github"]
+}

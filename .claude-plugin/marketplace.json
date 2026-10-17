@@ -1,0 +1,14 @@
+{
+  "name": "pseudo-cv",
+  "description": "pseudoCV: JD-specific, ATS-optimized one-page LaTeX resumes for students and job seekers.",
+  "owner": {
+    "name": "Yash Chauhan"
+  },
+  "plugins": [
+    {
+      "name": "pseudo-cv",
+      "source": "./",
+      "description": "Resume planning for any job description: ATS-optimized one-page LaTeX resume, optional target resume, gap report and build plan."
+    }
+  ]
+}
