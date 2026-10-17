@@ -205,7 +205,7 @@ flowchart LR
 │   │   └── resume-template.tex    ← fixed one-page template
 │   └── 📁 scripts/
 │       └── check_one_page.py      ← compiles + measures page count and fill
-├── 📁 examples/                   ← fictional sample (.tex + .pdf)
+├── 📁 examples/                   ← fictional sample (.tex)
 ├── 📁 docs/                       ← README images
 └── 📄 LICENSE
 ```
