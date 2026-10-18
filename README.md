@@ -270,6 +270,14 @@ Yes. Replace <code>skills/pseudo-cv/assets/resume-template.tex</code> and keep t
 
 ---
 
+## 🔒 Data & code
+
+- **No servers, no hooks, no auto-run.** pseudoCV is a skill — it has no MCP servers, hooks, background processes, or `bin/` executables. Nothing runs automatically.
+- **One optional script, run only with your approval.** `skills/pseudo-cv/scripts/check_one_page.py` compiles the generated LaTeX to confirm it fits one page. Claude runs it only when you approve it — on your machine in Claude Code, or in Anthropic's sandbox on claude.ai. It reads only the `.tex` being checked, makes **no network calls**, and sends nothing to the author or any third party. If Python or LaTeX isn't available, the check is skipped and you compile in [Overleaf](https://www.overleaf.com) instead.
+- **Your data stays with you.** pseudoCV collects, stores, and transmits nothing. Your resume, the job description, and any web lookups are handled by Claude under Anthropic's own terms — the author never receives any of it.
+
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome! 🎉
