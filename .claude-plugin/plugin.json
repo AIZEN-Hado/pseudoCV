@@ -8,5 +8,6 @@
   "homepage": "https://github.com/AIZEN-Hado/pseudoCV",
   "repository": "https://github.com/AIZEN-Hado/pseudoCV",
   "license": "MIT",
+  "icon": "./icon.svg",
   "keywords": ["resume", "cv", "job-description", "ats", "latex", "career", "students", "github"]
 }

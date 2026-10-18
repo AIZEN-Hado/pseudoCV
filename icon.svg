@@ -1,0 +1,35 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="pseudoCV">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#1E1B4B" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- rounded square background -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- résumé document -->
+  <g filter="url(#shadow)">
+    <rect x="128" y="108" width="256" height="320" rx="24" fill="#FFFFFF"/>
+  </g>
+
+  <!-- name / header block -->
+  <rect x="160" y="150" width="140" height="22" rx="11" fill="#312E81"/>
+  <rect x="160" y="184" width="92"  height="12" rx="6"  fill="#C7D2FE"/>
+
+  <!-- section lines -->
+  <rect x="160" y="226" width="192" height="10" rx="5" fill="#E0E7FF"/>
+  <rect x="160" y="250" width="160" height="10" rx="5" fill="#E0E7FF"/>
+  <rect x="160" y="286" width="192" height="10" rx="5" fill="#E0E7FF"/>
+  <rect x="160" y="310" width="140" height="10" rx="5" fill="#E0E7FF"/>
+  <rect x="160" y="346" width="176" height="10" rx="5" fill="#E0E7FF"/>
+  <rect x="160" y="370" width="112" height="10" rx="5" fill="#E0E7FF"/>
+
+  <!-- sparkle accent (matches the pseudoCV title) -->
+  <path d="M372 196c0 34 4 38 38 38-34 0-38 4-38 38 0-34-4-38-38-38 34 0 38-4 38-38z" fill="#FDE68A"/>
+  <path d="M332 150c0 16 2 18 18 18-16 0-18 2-18 18 0-16-2-18-18-18 16 0 18-2 18-18z" fill="#FBBF24"/>
+</svg>
